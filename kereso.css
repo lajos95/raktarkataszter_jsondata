@@ -1,0 +1,141 @@
+body {
+  --bg-color: #f4f6f9;
+  --text-color: #212529;
+  --container-bg: #e6dede;
+  --table-hover: rgba(0, 0, 0, 0.05);
+  --border-color: #dee2e6;
+  --accent-color: #dc3545;
+  --btn-bg: #ffffff;
+}
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --container-bg: #1e1e1e;
+  --table-hover: rgba(255, 255, 255, 0.07);
+  --border-color: #333333;
+  --btn-bg: #2d2d2d;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 30px;
+  font-family: system-ui, -apple-system, sans-serif;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: var(--container-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 25px;
+  transition: background-color 0.4s ease, border-color 0.4s ease;
+}
+.container .searchfield, .container #searchBtn, .container .loadarchivebtn, .container #prevpage, .container #nextpage {
+  background-color: var(--btn-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.container .searchfield:hover:not(:disabled), .container #searchBtn:hover:not(:disabled), .container .loadarchivebtn:hover:not(:disabled), .container #prevpage:hover:not(:disabled), .container #nextpage:hover:not(:disabled) {
+  filter: brightness(0.9);
+  border-color: var(--accent-color);
+}
+.container .searchfield:disabled, .container #searchBtn:disabled, .container .loadarchivebtn:disabled, .container #prevpage:disabled, .container #nextpage:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.container .loadarchivebtn {
+  border: 2px solid var(--accent-color) !important;
+  font-weight: 500;
+}
+.container .archivetable {
+  background-color: var(--container-bg);
+  color: var(--text-color);
+  border-collapse: collapse;
+  margin-top: 15px;
+  transition: background-color 0.4s ease;
+}
+.container .archivetable th {
+  background-color: var(--table-hover);
+  font-weight: 600;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+}
+.container .archivetable td {
+  padding: 12px;
+  border: 1px solid var(--border-color);
+}
+.container .archivetable tr {
+  transition: background-color 0.2s ease;
+}
+.container .archivetable tr:hover {
+  background-color: var(--table-hover);
+}
+
+.gyik-item {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.question {
+  background-color: var(--btn-bg);
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.question:hover {
+  background-color: var(--table-hover);
+}
+.question i {
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+.question span {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  background-color: var(--container-bg);
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+
+.answer.open {
+  max-height: 300px;
+  opacity: 1;
+  border-top: 1px solid var(--border-color);
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.table-animated tr {
+  animation: fadeInUp 0.5s ease forwards;
+}/*# sourceMappingURL=kereso.css.map */

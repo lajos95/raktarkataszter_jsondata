@@ -1,0 +1,702 @@
+[
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "1",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "2",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "3",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "4",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "5",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "6",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "7",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "8",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "9",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "10",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "11",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "12",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "13",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "14",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "15",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "16",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "17",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "18",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "19",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "1",
+    "Polc": "20",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "1",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "2",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "3",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "4",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "5",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "6",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "7",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "8",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "9",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "10",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "11",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "12",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "13",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "14",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "15",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "16",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "17",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "18",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "19",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "2",
+    "Polc": "20",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "1",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "2",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "3",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "4",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "5",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "6",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "7",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "8",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "9",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "10",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "11",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "12",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "13",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "14",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "15",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "16",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "17",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "18",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "19",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "3",
+    "Polc": "20",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "1",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "2",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "3",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "4",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "5",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "6",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "7",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "8",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "9",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "10",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "11",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "12",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "13",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "14",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "15",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "16",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "17",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "18",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "19",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "4",
+    "Polc": "20",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "1",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "2",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "3",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "4",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "5",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "6",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "7",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "8",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "9",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "10",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "11",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "12",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "13",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "14",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "15",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "16",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "17",
+    "Fondszám": "XII. 105.",
+    "Fond neve": "Tisza menti Építőipari és Kereskedelmi Rt. iratai"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "18",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "19",
+    "Fondszám": "VIII. 204.",
+    "Fond neve": "Csongrád Megyei Archívum Történelmi Tervtára"
+  },
+  {
+    "Raktár": "105",
+    "Hasáb": "5",
+    "Polc": "20",
+    "Fondszám": "XIX. 44.",
+    "Fond neve": "Szegedi Textilművek Vállalati Gyűjteménye"
+  }
+]

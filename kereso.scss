@@ -1,0 +1,171 @@
+// ==========================================
+// 1. TÉMÁK ÉS VÁLTOZÓK DEFINIÁLÁSA
+// ==========================================
+
+body {
+  // Alapértelmezett Világos Mód (Light mode) változói
+  --bg-color: #f4f6f9;          // Lágyabb, világosszürke háttér
+  --text-color: #212529;        // Sötétszürke szöveg a tiszta fekete helyett
+  --container-bg: #e6dede;      // Hófehér kártyák a tartalomnak
+  --table-hover: rgba(0, 0, 0, 0.05);
+  --border-color: #dee2e6;
+  --accent-color: #dc3545;       // A levéltári hangulathoz illő bordós/piros
+  --btn-bg: #ffffff;
+  
+  // Sötét Mód (Dark mode) változói felülírva
+  &.dark-mode {
+    --bg-color: #121212;        // Modern, anyag-központú sötét háttér
+    --text-color: #e0e0e0;      // Lágy fehér szöveg
+    --container-bg: #1e1e1e;    // Kicsit világosabb sötétszürke a konténernek
+    --table-hover: rgba(255, 255, 255, 0.07);
+    --border-color: #333333;
+    --btn-bg: #2d2d2d;
+  }
+
+  // Globális alapbeállítások
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 30px;
+  font-family: system-ui, -apple-system, sans-serif;
+  transition: background-color 0.4s ease, color 0.4s ease; // Gyorsabb, finomabb átmenet
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// ==========================================
+// 2. KOMPONENSEK STÍLUSOZÁSA
+// ==========================================
+
+.container {
+  background-color: var(--container-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 25px;
+  transition: background-color 0.4s ease, border-color 0.4s ease;
+
+  // Keresőmező és gombok közös stílusai a konténeren belül
+  .searchfield, #searchBtn, .loadarchivebtn, #prevpage, #nextpage {
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+    &:hover:not(:disabled) {
+      filter: brightness(0.9); // Világosban picit sötétedik, sötétben picit világosodik
+      border-color: var(--accent-color);
+    }
+    
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  .loadarchivebtn {
+    border: 2px solid var(--accent-color) !important; // Megtartja a kiemelt keretet
+    font-weight: 500;
+  }
+
+  // Táblázat modernizálása
+  .archivetable {
+    background-color: var(--container-bg);
+    color: var(--text-color);
+    border-collapse: collapse;
+    margin-top: 15px;
+    transition: background-color 0.4s ease;
+
+    th {
+      background-color: var(--table-hover);
+      font-weight: 600;
+      padding: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    tr {
+      transition: background-color 0.2s ease;
+      &:hover {
+        background-color: var(--table-hover);
+      }
+    }
+  }
+}
+
+// ==========================================
+// 3. LENYÍLÓ MENÜ (HARMONIKA) ÉS ANIMÁCIÓK
+// ==========================================
+
+.gyik-item {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.question {
+  background-color: var(--btn-bg);
+  cursor: pointer;
+  font-size: 20px; // A 24px kicsit ordító volt, a 20px elegánsabb
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--table-hover);
+  }
+
+  i {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  span {
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  background-color: var(--container-bg);
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+
+.answer.open {
+  max-height: 300px; // Megemelve, ha több gomb lenne egy emeleten
+  opacity: 1;
+  border-top: 1px solid var(--border-color);
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+// Táblázat sorainak finom úsztatása
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.table-animated tr {
+  animation: fadeInUp 0.5s ease forwards;
+}

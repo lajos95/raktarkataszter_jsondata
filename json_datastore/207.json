@@ -1,0 +1,702 @@
+[
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "1",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "2",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "3",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "4",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "5",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "6",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "7",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "8",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "9",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "10",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "11",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "12",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "13",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "14",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "15",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "16",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "17",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "18",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "19",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "1",
+    "Polc": "20",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "1",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "2",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "3",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "4",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "5",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "6",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "7",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "8",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "9",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "10",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "11",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "12",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "13",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "14",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "15",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "16",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "17",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "18",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "19",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "2",
+    "Polc": "20",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "1",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "2",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "3",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "4",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "5",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "6",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "7",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "8",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "9",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "10",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "11",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "12",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "13",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "14",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "15",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "16",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "17",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "18",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "19",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "3",
+    "Polc": "20",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "1",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "2",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "3",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "4",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "5",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "6",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "7",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "8",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "9",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "10",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "11",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "12",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "13",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "14",
+    "Fondszám": "XXII. 75.",
+    "Fond neve": "Szegedi Sütőipari Vállalat dokumentumai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "15",
+    "Fondszám": "XXII. 75.",
+    "Fond neve": "Szegedi Sütőipari Vállalat dokumentumai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "16",
+    "Fondszám": "XXII. 75.",
+    "Fond neve": "Szegedi Sütőipari Vállalat dokumentumai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "17",
+    "Fondszám": "XXII. 75.",
+    "Fond neve": "Szegedi Sütőipari Vállalat dokumentumai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "18",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "19",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "4",
+    "Polc": "20",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "1",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "2",
+    "Fondszám": "XXII. 75.",
+    "Fond neve": "Szegedi Sütőipari Vállalat dokumentumai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "3",
+    "Fondszám": "XXII. 75.",
+    "Fond neve": "Szegedi Sütőipari Vállalat dokumentumai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "4",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "5",
+    "Fondszám": "XIV. 88.",
+    "Fond neve": "Délmagyarországi Állami Erdőgazdaság"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "6",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "7",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "8",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "9",
+    "Fondszám": "IX. 55.",
+    "Fond neve": "Szegedi Kenderfonógyár iratai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "10",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "11",
+    "Fondszám": "XXVIII. 40.",
+    "Fond neve": "Tisza Volán Autóközlekedési Vállalat"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "12",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "13",
+    "Fondszám": "XXX. 120.",
+    "Fond neve": "Csongrád Megyei Építőipari Szövetkezet"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "14",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "15",
+    "Fondszám": "XI. 201.",
+    "Fond neve": "Szegedi Paprikafeldolgozó Kft. tervtára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "16",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "17",
+    "Fondszám": "XVI. 15.",
+    "Fond neve": "Szegedi Textilművek Vállalati irattár"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "18",
+    "Fondszám": "XXII. 75.",
+    "Fond neve": "Szegedi Sütőipari Vállalat dokumentumai"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "19",
+    "Fondszám": "V. 310.",
+    "Fond neve": "Dél-Alföldi Postaigazgatóság irattára"
+  },
+  {
+    "Raktár": "207",
+    "Hasáb": "5",
+    "Polc": "20",
+    "Fondszám": "XXV. 14.",
+    "Fond neve": "Szegedi Konzervgyár Vállalati iratai"
+  }
+]
