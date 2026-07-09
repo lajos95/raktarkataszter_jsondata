@@ -1,42 +1,31 @@
-// ==========================================
-// 1. TÉMÁK ÉS VÁLTOZÓK DEFINIÁLÁSA
-// ==========================================
-
 body {
-  // Alapértelmezett Világos Mód (Light mode) változói
-  --bg-color: #f4f6f9;          // Lágyabb, világosszürke háttér
-  --text-color: #212529;        // Sötétszürke szöveg a tiszta fekete helyett
-  --container-bg: #e6dede;      // Hófehér kártyák a tartalomnak
+  --bg-color: #f4f6f9;
+  --text-color: #212529;
+  --container-bg: #e6dede;
   --table-hover: rgba(0, 0, 0, 0.05);
   --border-color: #dee2e6;
-  --accent-color: #dc3545;       // A levéltári hangulathoz illő bordós/piros
+  --accent-color: #dc3545;
   --btn-bg: #ffffff;
   
-  // Sötét Mód (Dark mode) változói felülírva
   &.dark-mode {
-    --bg-color: #121212;        // Modern, anyag-központú sötét háttér
-    --text-color: #e0e0e0;      // Lágy fehér szöveg
-    --container-bg: #1e1e1e;    // Kicsit világosabb sötétszürke a konténernek
+    --bg-color: #121212;        
+    --text-color: #e0e0e0;      
+    --container-bg: #1e1e1e;
     --table-hover: rgba(255, 255, 255, 0.07);
     --border-color: #333333;
     --btn-bg: #2d2d2d;
   }
 
-  // Globális alapbeállítások
   background-color: var(--bg-color);
   color: var(--text-color);
   padding: 30px;
   font-family: system-ui, -apple-system, sans-serif;
-  transition: background-color 0.4s ease, color 0.4s ease; // Gyorsabb, finomabb átmenet
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 * {
   box-sizing: border-box;
 }
-
-// ==========================================
-// 2. KOMPONENSEK STÍLUSOZÁSA
-// ==========================================
 
 .container {
   background-color: var(--container-bg);
@@ -45,7 +34,6 @@ body {
   padding: 25px;
   transition: background-color 0.4s ease, border-color 0.4s ease;
 
-  // Keresőmező és gombok közös stílusai a konténeren belül
   .searchfield, #searchBtn, .loadarchivebtn, #prevpage, #nextpage {
     background-color: var(--btn-bg);
     color: var(--text-color);
@@ -55,7 +43,7 @@ body {
     transition: all 0.3s ease;
 
     &:hover:not(:disabled) {
-      filter: brightness(0.9); // Világosban picit sötétedik, sötétben picit világosodik
+      filter: brightness(0.9);
       border-color: var(--accent-color);
     }
     
@@ -66,11 +54,10 @@ body {
   }
 
   .loadarchivebtn {
-    border: 2px solid var(--accent-color) !important; // Megtartja a kiemelt keretet
+    border: 2px solid var(--accent-color) !important;
     font-weight: 500;
   }
 
-  // Táblázat modernizálása
   .archivetable {
     background-color: var(--container-bg);
     color: var(--text-color);
@@ -99,10 +86,6 @@ body {
   }
 }
 
-// ==========================================
-// 3. LENYÍLÓ MENÜ (HARMONIKA) ÉS ANIMÁCIÓK
-// ==========================================
-
 .gyik-item {
   border: 1px solid var(--border-color);
   border-radius: 8px;
@@ -113,7 +96,7 @@ body {
 .question {
   background-color: var(--btn-bg);
   cursor: pointer;
-  font-size: 20px; // A 24px kicsit ordító volt, a 20px elegánsabb
+  font-size: 20px;
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
@@ -144,7 +127,7 @@ body {
 }
 
 .answer.open {
-  max-height: 300px; // Megemelve, ha több gomb lenne egy emeleten
+  max-height: 300px;
   opacity: 1;
   border-top: 1px solid var(--border-color);
 }
@@ -154,7 +137,6 @@ body {
   justify-content: space-between;
 }
 
-// Táblázat sorainak finom úsztatása
 @keyframes fadeInUp {
   from {
     opacity: 0;
