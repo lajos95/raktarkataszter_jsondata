@@ -1,8 +1,6 @@
-const db = new Dexie("LeveltarDB"); //Adatbázis inicializálása
+const db = new Dexie("LeveltarDB");
 
 db.version(1).stores({
-  //// Meghatározzuk a táblákat.
-  // A '++id' egy automata kulcs, a 'keresoMezo' pedig a gyors kereséshez kell.
   archive: "++id, type",
 });
 
@@ -25,12 +23,11 @@ prevPage.disabled = true;
 nextPage.disabled = true;
 
 async function loadArchive(type) {
-  currentType = type; //Az adatbázis kiválasztása után a megfelelő js tartalma kerül bele az adatbázisba.
+  currentType = type;
   container.innerHTML = "Adatbázis betöltés...";
-  let chooseData = []; //Egy tömböt létrehozunk amibe a kiválasztott adatokat belerakjuk
-  //A button onclick-nál a típust összekapcsoljuk itt. így a script tudni fogja melyik js fájl adatait jelenítse meg.
+  let chooseData = [];
   try {
-    const count = await db.archive.where("type").equals(type).count(); //vannak-e már adatok ehhez a típushoz az indexeddb-ben
+    const count = await db.archive.where("type").equals(type).count();
 
     if (count === 0) {
       container.innerHTML = "Adatbázis betöltés...";
@@ -40,13 +37,12 @@ async function loadArchive(type) {
   
   const chooseData = await response.json();
 
-      // Hozzáadjuk a típust minden sorhoz, hogy később a kereső tudjon vele dolgozni
       const savedData = chooseData.map((item) => ({
         ...item,
         type: type,
       }));
 
-      await db.archive.bulkPut(savedData); //A Dexie-be belerakjuk
+      await db.archive.bulkPut(savedData);
     }
 
     if (type.length === 0) {
@@ -64,10 +60,8 @@ async function loadArchive(type) {
 }
 
 async function refreshDisplay(keresoSzo) {
-  //A keresés funkciót itt hozzuk létre. A gombnál, csak a keresőszót, mint változó kerül kialakításra, és onnan átadjuk a frissítőfüggvénynek
   currentPage = 1;
 
-  //Az összes adatot lekérjük az adott típusból
   let query = await db.archive.where("type").equals(currentType).toArray();
 
   if (keresoSzo) {
@@ -97,24 +91,20 @@ function displayData(osszesAdat) {
     return;
   }
 
-  /*table table-responsive table-hover text-center*/
-
   let tableHtml =
     '<table class="w-100 text-center archivetable table-animated"><thead><tr>';
   const headers = Object.keys(osszesAdat[0]).filter(
     (h) => h !== "id" && h !== "type",
-  ); //A js adatsorában megnézi az első adatsort (vagyis excelben az első sor neveit) ezek az oszlopok címei lesznek. Az egyedi id és a type mezőket nem jelenítjük meg (amit mi rendeltünk hozzá, hogy kezelni tudjuk)
+  ); 
   headers.forEach((header) => {
     // az összes nevet egy cellába rakjuk
-    tableHtml += `<th class="border">${header}</th>`; //összefűzzük őket a html-hez
+    tableHtml += `<th class="border">${header}</th>`;
   });
   tableHtml += "</tr></thead><tbody>";
 
   osszesAdat.forEach((row) => {
-    //végigmegyünk minden egyes soron
     tableHtml += "<tr>";
     headers.forEach((header) => {
-      //fejlécneveken végigmegy és az adatait lekéri
       const cellValue = row[header] !== undefined ? row[header] : "-";
       tableHtml += `<td class="border p-3">${cellValue}</td>`;
     });
@@ -139,7 +129,7 @@ searchInput.addEventListener("keypress", (event) => {
 
 resetBtn.addEventListener("click", () => {
   const floorSelect = document.getElementById("floor");
-  floorSelect.value = ""; //Eleve üres az értéke az alapértelmezettnek, emiatt a value értéket erre kell visszaállítani
+  floorSelect.value = "";
 
   const storeBtns = document.querySelectorAll(".storebtn");
 
@@ -180,12 +170,10 @@ nextPage.addEventListener("click", () => {
 });
 
 function updateButtons() {
-  prevPage.disabled = currentPage === 1; //csak akkor letiltott, ha az aktuális oldal értéke 1
-  //ha nincs több adat, a köv. gombot letiltjuk
-  const hasNextPage = currentPage * rowsPerPage < szurtAdatok.length; // van-e még olyan elem a listában, amik a mostani elemek után következnek? ha igen akkor az értéke true. ha nincs akkor false.
+  prevPage.disabled = currentPage === 1;
+  const hasNextPage = currentPage * rowsPerPage < szurtAdatok.length;
   nextPage.disabled = !hasNextPage;
 
-  //Összes oldalszám frissítése: a szurtAdatok hosszát elosztjuk az egy oldalon lévő találatok számával. A Math.ceil segítségével mindig egész számra kerekít, a kerekítés szabályaival
   const allPageNumber = Math.ceil(szurtAdatok.length / rowsPerPage);
 
   allPages.innerText = szurtAdatok.length > 0 ? allPageNumber : 0;
@@ -193,18 +181,15 @@ function updateButtons() {
 }
 
 document.getElementById("floor").addEventListener("change", function () {
-  //Összes tartalom egy változóba
+  
   const storeBtns = document.querySelectorAll(".storebtn");
 
-  //Tartalmak elrejtése
   storeBtns.forEach((div) => {
     div.classList.remove("visible");
   });
 
-  //Az id-k alapján a kiválasztott id lekérése
   const chooseId = this.value;
 
-  //A kiválasztott értékű opcióhoz kapcsolódó tartalmat megjelenítjük
   if (chooseId) {
     const displayContent = document.getElementById(chooseId);
     if (displayContent) {
