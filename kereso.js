@@ -97,7 +97,6 @@ function displayData(osszesAdat) {
     (h) => h !== "id" && h !== "type",
   ); 
   headers.forEach((header) => {
-    // az összes nevet egy cellába rakjuk
     tableHtml += `<th class="border">${header}</th>`;
   });
   tableHtml += "</tr></thead><tbody>";

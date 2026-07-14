@@ -3,17 +3,19 @@ body {
   --text-color: #212529;
   --container-bg: #e6dede;
   --table-hover: rgba(0, 0, 0, 0.05);
-  --border-color: #dee2e6;
+  --border-color: #333333;
   --accent-color: #dc3545;
   --btn-bg: #ffffff;
+  --hover-text: #fff;
 }
 body.dark-mode {
   --bg-color: #121212;
   --text-color: #e0e0e0;
   --container-bg: #1e1e1e;
   --table-hover: rgba(255, 255, 255, 0.07);
-  --border-color: #333333;
+  --border-color: #dee2e6;
   --btn-bg: #2d2d2d;
+  --hover-text: #121212;
 }
 body {
   background-color: var(--bg-color);
@@ -27,54 +29,209 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  background-color: var(--container-bg);
+.toggleBtn,
+#resetBtn {
+  --color: var(--text-color);
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background: transparent;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
   color: var(--text-color);
-  border: 1px solid var(--border-color);
-  padding: 25px;
-  transition: background-color 0.4s ease, border-color 0.4s ease;
 }
-.container .searchfield, .container #searchBtn, .container .loadarchivebtn, .container #prevpage, .container #nextpage {
-  background-color: var(--btn-bg);
-  color: var(--text-color);
-  border: 1px solid var(--border-color);
-  padding: 10px 16px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
+.toggleBtn:before,
+#resetBtn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
 }
-.container .searchfield:hover:not(:disabled), .container #searchBtn:hover:not(:disabled), .container .loadarchivebtn:hover:not(:disabled), .container #prevpage:hover:not(:disabled), .container #nextpage:hover:not(:disabled) {
-  filter: brightness(0.9);
-  border-color: var(--accent-color);
+.toggleBtn:hover,
+#resetBtn:hover {
+  color: var(--hover-text);
 }
-.container .searchfield:disabled, .container #searchBtn:disabled, .container .loadarchivebtn:disabled, .container #prevpage:disabled, .container #nextpage:disabled {
+.toggleBtn:hover:before,
+#resetBtn:hover:before {
+  top: -30px;
+  left: -30px;
+}
+.toggleBtn:before,
+#resetBtn:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+.toggleBtn:active:before,
+#resetBtn:active:before {
+  transition: background 0s;
+}
+.toggleBtn:disabled,
+#resetBtn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-.container .loadarchivebtn {
+
+.backtoTopBtn {
+  min-width: 200px;
+  height: 56px;
+  overflow: hidden;
+  color: var(--text-color);
+  border: none;
+  background: none;
+  position: relative;
+  padding-bottom: 2em;
+  cursor: pointer;
+}
+.backtoTopBtn > div, .backtoTopBtn > svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.backtoTopBtn:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  background: currentColor;
+  transition: transform 0.25s ease-out;
+}
+.backtoTopBtn:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.backtoTopBtn .clone > *,
+.backtoTopBtn .text > * {
+  opacity: 1;
+  font-size: 1.3rem;
+  transition: 0.2s;
+  margin-left: 4px;
+}
+.backtoTopBtn .clone > * {
+  transform: translateY(60px);
+}
+.backtoTopBtn:hover .clone > * {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.backtoTopBtn:hover .text > * {
+  opacity: 1;
+  transform: translateY(-60px);
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.backtoTopBtn:hover .clone > :nth-child(1) {
+  transition-delay: 0.15s;
+}
+.backtoTopBtn:hover .clone > :nth-child(2) {
+  transition-delay: 0.2s;
+}
+.backtoTopBtn:hover .clone > :nth-child(3) {
+  transition-delay: 0.25s;
+}
+.backtoTopBtn:hover .clone > :nth-child(4) {
+  transition-delay: 0.3s;
+}
+.backtoTopBtn svg {
+  width: 20px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-50deg);
+  transition: 0.2s ease-out;
+}
+.backtoTopBtn:hover svg {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.container-fluid {
+  background-color: var(--container-bg);
+  color: var(--text-color);
+  padding: 25px;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  box-shadow: 5px 5px 60px 19px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.4s ease, border-color 0.4s ease;
+}
+.container-fluid .searchfield,
+.container-fluid #searchBtn,
+.container-fluid .loadarchivebtn,
+.container-fluid #prevpage,
+.container-fluid #nextpage,
+.container-fluid #resetBtn {
+  background-color: var(--btn-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color) !important;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+.container-fluid .searchfield:hover:not(:disabled),
+.container-fluid #searchBtn:hover:not(:disabled),
+.container-fluid .loadarchivebtn:hover:not(:disabled),
+.container-fluid #prevpage:hover:not(:disabled),
+.container-fluid #nextpage:hover:not(:disabled),
+.container-fluid #resetBtn:hover:not(:disabled) {
+  filter: brightness(0.9);
+  border-color: var(--accent-color) !important;
+}
+.container-fluid .searchfield:disabled,
+.container-fluid #searchBtn:disabled,
+.container-fluid .loadarchivebtn:disabled,
+.container-fluid #prevpage:disabled,
+.container-fluid #nextpage:disabled,
+.container-fluid #resetBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.container-fluid .loadarchivebtn {
   border: 2px solid var(--accent-color) !important;
   font-weight: 500;
 }
-.container .archivetable {
+.container-fluid .loadarchivebtn:hover {
+  background-color: var(--accent-color);
+  color: #fff !important;
+}
+.container-fluid .archivetable {
   background-color: var(--container-bg);
   color: var(--text-color);
+  border: 1px solid var(--border-color);
   border-collapse: collapse;
   margin-top: 15px;
   transition: background-color 0.4s ease;
 }
-.container .archivetable th {
+.container-fluid .archivetable th {
   background-color: var(--table-hover);
   font-weight: 600;
   padding: 12px;
   border: 1px solid var(--border-color);
 }
-.container .archivetable td {
+.container-fluid .archivetable td {
   padding: 12px;
   border: 1px solid var(--border-color);
 }
-.container .archivetable tr {
+.container-fluid .archivetable tr {
   transition: background-color 0.2s ease;
 }
-.container .archivetable tr:hover {
+.container-fluid .archivetable tr:hover {
   background-color: var(--table-hover);
 }
 
